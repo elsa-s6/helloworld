@@ -1,7 +1,16 @@
 console.log('Hello world');
 
-const sports = ["basketball", "handball", "running", "decathlon"];
-console.log(sports[1]);
+var x = 7; 
+var y = 8; 
 
-sports.splice(2,1);
-console.log(sports);
+var z = x + y;
+console.log(z);
+
+var z = y - x; 
+console.log(z);
+
+var z = x+=2;
+console.log(z);
+
+var myString = "this is Lingokids"; 
+console.log("OMG " + myString + " and it's really cool");
